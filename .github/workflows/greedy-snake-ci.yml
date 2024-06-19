@@ -29,5 +29,5 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-         github_token: ${{ secrets.greedy_snake_secret }}
+         github_token: ${{ secrets.GREEDY_SNAKE_SERECT }}
          publish_dir: ./dist
